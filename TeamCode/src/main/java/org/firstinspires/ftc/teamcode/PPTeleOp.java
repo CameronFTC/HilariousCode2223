@@ -16,7 +16,6 @@ public class PPTeleOp extends LinearOpMode {
         double rightstickx = Math.abs(gamepad1.right_stick_x) * -gamepad1.right_stick_x ;
         double leftstickx = -gamepad1.left_stick_x * Math.abs(gamepad1.left_stick_x);
 
-            //test
         double leftstickyfront = Math.abs(gamepad1.left_stick_y) * gamepad1.left_stick_y ;
         double leftstickyback = Math.abs(gamepad1.left_stick_y) * -gamepad1.left_stick_y ;
 
